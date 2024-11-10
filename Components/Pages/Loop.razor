@@ -1,0 +1,23 @@
+﻿@page "/loop"
+<h3>Loop</h3>
+
+<ul>
+    @for(int i =1; i<=10;i++)
+    {
+        <li>
+            @i
+            @if (i == 5)
+            {
+                <span>
+                    Five
+                </span>
+            }
+        </li>
+            
+
+    }
+
+</ul>
+@code {
+
+}

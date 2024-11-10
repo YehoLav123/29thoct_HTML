@@ -1,0 +1,21 @@
+﻿@page "/7boom"
+<h3>7Boom</h3>
+<title>7boom</title>
+<ul>
+    @for (int i = 1; i <= 100; i++)
+    {
+        <span>
+            @if (i == 7 || i % 10 == 7 || i % 100 == 7 || i % 7 == 0||i/10==7)
+            {
+                <span>
+                    Boom
+                </span>
+            }
+            else
+            @i ,
+        </span>
+    }
+</ul>
+@code {
+
+}
